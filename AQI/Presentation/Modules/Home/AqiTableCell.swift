@@ -41,19 +41,19 @@ class AqiTableCell: UITableViewCell {
         if val >= 0 , val <= 50 {
             lblAqiValue.backgroundColor = UIColor(named: "Good")
         }
-        else if val >= 51 , val <= 100 {
+        else if val > 50 , val <= 100 {
             lblAqiValue.backgroundColor = UIColor(named: "Satisffactory")
         }
-        else if val >= 101 , val <= 200 {
+        else if val > 100 , val <= 200 {
             lblAqiValue.backgroundColor = UIColor(named: "Moderate")
         }
-        else if val >= 201 , val <= 300 {
+        else if val > 200 , val <= 300 {
             lblAqiValue.backgroundColor = UIColor(named: "Poor")
         }
-        else if val >= 301 , val <= 400 {
+        else if val > 300 , val <= 400 {
             lblAqiValue.backgroundColor = UIColor(named: "VeryPoor")
         }
-        else if val >= 401 {
+        else if val > 400 {
             lblAqiValue.backgroundColor = UIColor(named: "Severe")
         }
     }

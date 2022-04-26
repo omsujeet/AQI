@@ -49,7 +49,10 @@ public class NetworkCaller: NSObject, URLSessionWebSocketDelegate {
           case .data(let data):
             print("Data received \(data)")
           case .string(let text):
-              self?.response?(text)
+              DispatchQueue.main.async {
+                  self?.response?(text)
+              }
+              
 //            print("Text received \(text)")
           }
         case .failure(let error):
