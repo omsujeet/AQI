@@ -7,15 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E48BD278A40918190B09971 /* Pods_AQI_AQIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E1BA32082C610644E5FC14 /* Pods_AQI_AQIUITests.framework */; };
+		2DD1A019E797A7C4144A1A24 /* Pods_AQITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B892EE8A15BB04E4EC220F14 /* Pods_AQITests.framework */; };
+		BDBC3B3AA1DB0110826E54B7 /* Pods_AQI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9272D6A6CC0E5992D2A03F7F /* Pods_AQI.framework */; };
 		D0DFB0852816E3DD00C99099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0842816E3DD00C99099 /* AppDelegate.swift */; };
 		D0DFB0872816E3DD00C99099 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0862816E3DD00C99099 /* SceneDelegate.swift */; };
-		D0DFB0892816E3DD00C99099 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0882816E3DD00C99099 /* ViewController.swift */; };
 		D0DFB08C2816E3DD00C99099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DFB08A2816E3DD00C99099 /* Main.storyboard */; };
 		D0DFB08E2816E3DF00C99099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DFB08D2816E3DF00C99099 /* Assets.xcassets */; };
 		D0DFB0912816E3E000C99099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DFB08F2816E3DF00C99099 /* LaunchScreen.storyboard */; };
 		D0DFB09C2816E3E000C99099 /* AQITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB09B2816E3E000C99099 /* AQITests.swift */; };
 		D0DFB0A62816E3E000C99099 /* AQIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0A52816E3E000C99099 /* AQIUITests.swift */; };
 		D0DFB0A82816E3E000C99099 /* AQIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0A72816E3E000C99099 /* AQIUITestsLaunchTests.swift */; };
+		D0DFB0BA2816E5B800C99099 /* AqiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0B92816E5B800C99099 /* AqiModel.swift */; };
+		D0DFB0BE2816E60500C99099 /* IHomeScreenUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0BD2816E60500C99099 /* IHomeScreenUseCase.swift */; };
+		D0DFB0C02816E61400C99099 /* IHomeScreenUseCaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0BF2816E61400C99099 /* IHomeScreenUseCaseProvider.swift */; };
+		D0DFB0C22816E62200C99099 /* HomeScreenUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0C12816E62200C99099 /* HomeScreenUseCase.swift */; };
+		D0DFB0C42816E63900C99099 /* HomeScreenUseCaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0C32816E63800C99099 /* HomeScreenUseCaseProvider.swift */; };
+		D0DFB0C72816E69400C99099 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0C62816E69400C99099 /* HomeController.swift */; };
+		D0DFB0C92816E6B500C99099 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0C82816E6B500C99099 /* HomeInteractor.swift */; };
+		D0DFB0CB2816E6C700C99099 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0CA2816E6C700C99099 /* HomePresenter.swift */; };
+		D0DFB0CD2816E6E100C99099 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0CC2816E6E100C99099 /* HomeRouter.swift */; };
+		D0DFB0CF2816E70400C99099 /* HomeConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0CE2816E70400C99099 /* HomeConfigurator.swift */; };
+		D0DFB0D1281729E000C99099 /* AqiTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0D0281729E000C99099 /* AqiTableCell.swift */; };
+		D0DFB0D52817C99100C99099 /* BaseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0D42817C99100C99099 /* BaseTableView.swift */; };
+		D0DFB0D72817C9E000C99099 /* CellRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0D62817C9E000C99099 /* CellRepresentable.swift */; };
+		D0DFB0D92817CA2700C99099 /* AqiTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0D82817CA2700C99099 /* AqiTableView.swift */; };
+		D0DFB0DC2817CE6800C99099 /* IResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0DB2817CE6800C99099 /* IResponseHandler.swift */; };
+		D0DFB0E32817CEAC00C99099 /* APIErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0DE2817CEAB00C99099 /* APIErrorManager.swift */; };
+		D0DFB0E42817CEAC00C99099 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0DF2817CEAB00C99099 /* APIError.swift */; };
+		D0DFB0E62817CEAC00C99099 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0E12817CEAC00C99099 /* APIResponse.swift */; };
+		D0DFB0EC2817D49C00C99099 /* NetworkCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0EA2817D49C00C99099 /* NetworkCaller.swift */; };
+		D0DFB0F42818046800C99099 /* AqiCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0F32818046800C99099 /* AqiCellModel.swift */; };
+		D0DFB0F62818272300C99099 /* Date+Difference.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0F52818272300C99099 /* Date+Difference.swift */; };
+		D0DFB0FB2818551D00C99099 /* ChartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0FA2818551D00C99099 /* ChartController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +60,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		408D9FC87705C36D30DA8AE3 /* Pods-AQI-AQIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AQI-AQIUITests.release.xcconfig"; path = "Target Support Files/Pods-AQI-AQIUITests/Pods-AQI-AQIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5054C0677F0F4AD529030514 /* Pods-AQITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AQITests.debug.xcconfig"; path = "Target Support Files/Pods-AQITests/Pods-AQITests.debug.xcconfig"; sourceTree = "<group>"; };
+		55EA45584D8B5462707845F8 /* Pods-AQITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AQITests.release.xcconfig"; path = "Target Support Files/Pods-AQITests/Pods-AQITests.release.xcconfig"; sourceTree = "<group>"; };
+		639A080A5F38EFCAF43DBE7B /* Pods-AQI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AQI.debug.xcconfig"; path = "Target Support Files/Pods-AQI/Pods-AQI.debug.xcconfig"; sourceTree = "<group>"; };
+		9272D6A6CC0E5992D2A03F7F /* Pods_AQI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AQI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B892EE8A15BB04E4EC220F14 /* Pods_AQITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AQITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DFB0812816E3DD00C99099 /* AQI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AQI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DFB0842816E3DD00C99099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0DFB0862816E3DD00C99099 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D0DFB0882816E3DD00C99099 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D0DFB08B2816E3DD00C99099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0DFB08D2816E3DF00C99099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0DFB0902816E3DF00C99099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +78,31 @@
 		D0DFB0A12816E3E000C99099 /* AQIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AQIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DFB0A52816E3E000C99099 /* AQIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQIUITests.swift; sourceTree = "<group>"; };
 		D0DFB0A72816E3E000C99099 /* AQIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0DFB0B92816E5B800C99099 /* AqiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AqiModel.swift; sourceTree = "<group>"; };
+		D0DFB0BD2816E60500C99099 /* IHomeScreenUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHomeScreenUseCase.swift; sourceTree = "<group>"; };
+		D0DFB0BF2816E61400C99099 /* IHomeScreenUseCaseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHomeScreenUseCaseProvider.swift; sourceTree = "<group>"; };
+		D0DFB0C12816E62200C99099 /* HomeScreenUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenUseCase.swift; sourceTree = "<group>"; };
+		D0DFB0C32816E63800C99099 /* HomeScreenUseCaseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenUseCaseProvider.swift; sourceTree = "<group>"; };
+		D0DFB0C62816E69400C99099 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		D0DFB0C82816E6B500C99099 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		D0DFB0CA2816E6C700C99099 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		D0DFB0CC2816E6E100C99099 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		D0DFB0CE2816E70400C99099 /* HomeConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeConfigurator.swift; sourceTree = "<group>"; };
+		D0DFB0D0281729E000C99099 /* AqiTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AqiTableCell.swift; sourceTree = "<group>"; };
+		D0DFB0D42817C99100C99099 /* BaseTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableView.swift; sourceTree = "<group>"; };
+		D0DFB0D62817C9E000C99099 /* CellRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellRepresentable.swift; sourceTree = "<group>"; };
+		D0DFB0D82817CA2700C99099 /* AqiTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AqiTableView.swift; sourceTree = "<group>"; };
+		D0DFB0DB2817CE6800C99099 /* IResponseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IResponseHandler.swift; sourceTree = "<group>"; };
+		D0DFB0DE2817CEAB00C99099 /* APIErrorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIErrorManager.swift; sourceTree = "<group>"; };
+		D0DFB0DF2817CEAB00C99099 /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		D0DFB0E12817CEAC00C99099 /* APIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		D0DFB0EA2817D49C00C99099 /* NetworkCaller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkCaller.swift; sourceTree = "<group>"; };
+		D0DFB0F32818046800C99099 /* AqiCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AqiCellModel.swift; sourceTree = "<group>"; };
+		D0DFB0F52818272300C99099 /* Date+Difference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Difference.swift"; sourceTree = "<group>"; };
+		D0DFB0FA2818551D00C99099 /* ChartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartController.swift; sourceTree = "<group>"; };
+		D454964CDBB623C8A397BA91 /* Pods-AQI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AQI.release.xcconfig"; path = "Target Support Files/Pods-AQI/Pods-AQI.release.xcconfig"; sourceTree = "<group>"; };
+		DB6AB01566A91646321613C0 /* Pods-AQI-AQIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AQI-AQIUITests.debug.xcconfig"; path = "Target Support Files/Pods-AQI-AQIUITests/Pods-AQI-AQIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9E1BA32082C610644E5FC14 /* Pods_AQI_AQIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AQI_AQIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDBC3B3AA1DB0110826E54B7 /* Pods_AQI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DD1A019E797A7C4144A1A24 /* Pods_AQITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +126,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E48BD278A40918190B09971 /* Pods_AQI_AQIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01D5A0E18ACB325F45CD2CC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				639A080A5F38EFCAF43DBE7B /* Pods-AQI.debug.xcconfig */,
+				D454964CDBB623C8A397BA91 /* Pods-AQI.release.xcconfig */,
+				DB6AB01566A91646321613C0 /* Pods-AQI-AQIUITests.debug.xcconfig */,
+				408D9FC87705C36D30DA8AE3 /* Pods-AQI-AQIUITests.release.xcconfig */,
+				5054C0677F0F4AD529030514 /* Pods-AQITests.debug.xcconfig */,
+				55EA45584D8B5462707845F8 /* Pods-AQITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA0C49A2DA630A2CD6CAF920 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9272D6A6CC0E5992D2A03F7F /* Pods_AQI.framework */,
+				F9E1BA32082C610644E5FC14 /* Pods_AQI_AQIUITests.framework */,
+				B892EE8A15BB04E4EC220F14 /* Pods_AQITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D0DFB0782816E3DD00C99099 = {
 			isa = PBXGroup;
 			children = (
+				D0DFB0B62816E45A00C99099 /* Domain */,
+				D0DFB0B52816E43F00C99099 /* Platform */,
+				D0DFB0B42816E42F00C99099 /* Entities */,
 				D0DFB0832816E3DD00C99099 /* AQI */,
 				D0DFB09A2816E3E000C99099 /* AQITests */,
 				D0DFB0A42816E3E000C99099 /* AQIUITests */,
 				D0DFB0822816E3DD00C99099 /* Products */,
+				01D5A0E18ACB325F45CD2CC2 /* Pods */,
+				AA0C49A2DA630A2CD6CAF920 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +184,8 @@
 		D0DFB0832816E3DD00C99099 /* AQI */ = {
 			isa = PBXGroup;
 			children = (
-				D0DFB0842816E3DD00C99099 /* AppDelegate.swift */,
-				D0DFB0862816E3DD00C99099 /* SceneDelegate.swift */,
-				D0DFB0882816E3DD00C99099 /* ViewController.swift */,
+				D0DFB0B72816E47300C99099 /* Presentation */,
+				D0DFB0B82816E50000C99099 /* Common */,
 				D0DFB08A2816E3DD00C99099 /* Main.storyboard */,
 				D0DFB08D2816E3DF00C99099 /* Assets.xcassets */,
 				D0DFB08F2816E3DF00C99099 /* LaunchScreen.storyboard */,
@@ -127,6 +211,121 @@
 			path = AQIUITests;
 			sourceTree = "<group>";
 		};
+		D0DFB0B42816E42F00C99099 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				D0DFB0DD2817CE9E00C99099 /* Api */,
+				D0DFB0B92816E5B800C99099 /* AqiModel.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		D0DFB0B52816E43F00C99099 /* Platform */ = {
+			isa = PBXGroup;
+			children = (
+				D0DFB0E82817D48F00C99099 /* Api */,
+				D0DFB0C12816E62200C99099 /* HomeScreenUseCase.swift */,
+				D0DFB0C32816E63800C99099 /* HomeScreenUseCaseProvider.swift */,
+			);
+			path = Platform;
+			sourceTree = "<group>";
+		};
+		D0DFB0B62816E45A00C99099 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				D0DFB0DA2817CE5E00C99099 /* Api */,
+				D0DFB0BD2816E60500C99099 /* IHomeScreenUseCase.swift */,
+				D0DFB0BF2816E61400C99099 /* IHomeScreenUseCaseProvider.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		D0DFB0B72816E47300C99099 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				D0DFB0D32817C98300C99099 /* Views */,
+				D0DFB0D22817C97100C99099 /* Modules */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		D0DFB0B82816E50000C99099 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D0DFB0842816E3DD00C99099 /* AppDelegate.swift */,
+				D0DFB0862816E3DD00C99099 /* SceneDelegate.swift */,
+				D0DFB0F52818272300C99099 /* Date+Difference.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D0DFB0C52816E66300C99099 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D0DFB0C62816E69400C99099 /* HomeController.swift */,
+				D0DFB0C82816E6B500C99099 /* HomeInteractor.swift */,
+				D0DFB0CA2816E6C700C99099 /* HomePresenter.swift */,
+				D0DFB0CC2816E6E100C99099 /* HomeRouter.swift */,
+				D0DFB0CE2816E70400C99099 /* HomeConfigurator.swift */,
+				D0DFB0D0281729E000C99099 /* AqiTableCell.swift */,
+				D0DFB0F32818046800C99099 /* AqiCellModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D0DFB0D22817C97100C99099 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D0DFB0C52816E66300C99099 /* Home */,
+				D0DFB0F9281854FA00C99099 /* Chart */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D0DFB0D32817C98300C99099 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0DFB0D42817C99100C99099 /* BaseTableView.swift */,
+				D0DFB0D62817C9E000C99099 /* CellRepresentable.swift */,
+				D0DFB0D82817CA2700C99099 /* AqiTableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D0DFB0DA2817CE5E00C99099 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				D0DFB0DB2817CE6800C99099 /* IResponseHandler.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		D0DFB0DD2817CE9E00C99099 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				D0DFB0DF2817CEAB00C99099 /* APIError.swift */,
+				D0DFB0DE2817CEAB00C99099 /* APIErrorManager.swift */,
+				D0DFB0E12817CEAC00C99099 /* APIResponse.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		D0DFB0E82817D48F00C99099 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				D0DFB0EA2817D49C00C99099 /* NetworkCaller.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		D0DFB0F9281854FA00C99099 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				D0DFB0FA2818551D00C99099 /* ChartController.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +333,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0DFB0AB2816E3E000C99099 /* Build configuration list for PBXNativeTarget "AQI" */;
 			buildPhases = (
+				4F63BACC3E6FD116D35ED7D9 /* [CP] Check Pods Manifest.lock */,
 				D0DFB07D2816E3DD00C99099 /* Sources */,
 				D0DFB07E2816E3DD00C99099 /* Frameworks */,
 				D0DFB07F2816E3DD00C99099 /* Resources */,
+				35CC50EF69504EB9CA592D4B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +352,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0DFB0AE2816E3E000C99099 /* Build configuration list for PBXNativeTarget "AQITests" */;
 			buildPhases = (
+				E5E57AD168CE5D8CFD33B43A /* [CP] Check Pods Manifest.lock */,
 				D0DFB0932816E3E000C99099 /* Sources */,
 				D0DFB0942816E3E000C99099 /* Frameworks */,
 				D0DFB0952816E3E000C99099 /* Resources */,
@@ -169,9 +371,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0DFB0B12816E3E000C99099 /* Build configuration list for PBXNativeTarget "AQIUITests" */;
 			buildPhases = (
+				22E2A01F29A425694E6ABC87 /* [CP] Check Pods Manifest.lock */,
 				D0DFB09D2816E3E000C99099 /* Sources */,
 				D0DFB09E2816E3E000C99099 /* Frameworks */,
 				D0DFB09F2816E3E000C99099 /* Resources */,
+				943390DDBA7CB6348E157960 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +457,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22E2A01F29A425694E6ABC87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AQI-AQIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35CC50EF69504EB9CA592D4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AQI/Pods-AQI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AQI/Pods-AQI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AQI/Pods-AQI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F63BACC3E6FD116D35ED7D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AQI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		943390DDBA7CB6348E157960 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AQI-AQIUITests/Pods-AQI-AQIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AQI-AQIUITests/Pods-AQI-AQIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AQI-AQIUITests/Pods-AQI-AQIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5E57AD168CE5D8CFD33B43A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AQITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D0DFB07D2816E3DD00C99099 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0DFB0892816E3DD00C99099 /* ViewController.swift in Sources */,
+				D0DFB0BE2816E60500C99099 /* IHomeScreenUseCase.swift in Sources */,
+				D0DFB0CD2816E6E100C99099 /* HomeRouter.swift in Sources */,
+				D0DFB0BA2816E5B800C99099 /* AqiModel.swift in Sources */,
+				D0DFB0E62817CEAC00C99099 /* APIResponse.swift in Sources */,
+				D0DFB0FB2818551D00C99099 /* ChartController.swift in Sources */,
+				D0DFB0D52817C99100C99099 /* BaseTableView.swift in Sources */,
+				D0DFB0DC2817CE6800C99099 /* IResponseHandler.swift in Sources */,
+				D0DFB0C92816E6B500C99099 /* HomeInteractor.swift in Sources */,
+				D0DFB0D92817CA2700C99099 /* AqiTableView.swift in Sources */,
 				D0DFB0852816E3DD00C99099 /* AppDelegate.swift in Sources */,
+				D0DFB0F42818046800C99099 /* AqiCellModel.swift in Sources */,
+				D0DFB0CF2816E70400C99099 /* HomeConfigurator.swift in Sources */,
+				D0DFB0C02816E61400C99099 /* IHomeScreenUseCaseProvider.swift in Sources */,
+				D0DFB0E32817CEAC00C99099 /* APIErrorManager.swift in Sources */,
+				D0DFB0C72816E69400C99099 /* HomeController.swift in Sources */,
+				D0DFB0E42817CEAC00C99099 /* APIError.swift in Sources */,
+				D0DFB0C22816E62200C99099 /* HomeScreenUseCase.swift in Sources */,
 				D0DFB0872816E3DD00C99099 /* SceneDelegate.swift in Sources */,
+				D0DFB0EC2817D49C00C99099 /* NetworkCaller.swift in Sources */,
+				D0DFB0C42816E63900C99099 /* HomeScreenUseCaseProvider.swift in Sources */,
+				D0DFB0F62818272300C99099 /* Date+Difference.swift in Sources */,
+				D0DFB0D1281729E000C99099 /* AqiTableCell.swift in Sources */,
+				D0DFB0D72817C9E000C99099 /* CellRepresentable.swift in Sources */,
+				D0DFB0CB2816E6C700C99099 /* HomePresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +762,7 @@
 		};
 		D0DFB0AC2816E3E000C99099 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 639A080A5F38EFCAF43DBE7B /* Pods-AQI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +791,7 @@
 		};
 		D0DFB0AD2816E3E000C99099 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D454964CDBB623C8A397BA91 /* Pods-AQI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +820,7 @@
 		};
 		D0DFB0AF2816E3E000C99099 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5054C0677F0F4AD529030514 /* Pods-AQITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +841,7 @@
 		};
 		D0DFB0B02816E3E000C99099 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55EA45584D8B5462707845F8 /* Pods-AQITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +862,7 @@
 		};
 		D0DFB0B22816E3E000C99099 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB6AB01566A91646321613C0 /* Pods-AQI-AQIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +881,7 @@
 		};
 		D0DFB0B32816E3E000C99099 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 408D9FC87705C36D30DA8AE3 /* Pods-AQI-AQIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
