@@ -62,7 +62,7 @@ class ChartController: UIViewController, ChartControllerProtocol {
     }
     
     @IBAction func btnCloseClicked(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
+        router?.dismisVc()
     }
     
 }

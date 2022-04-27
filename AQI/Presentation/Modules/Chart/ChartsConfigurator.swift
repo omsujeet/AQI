@@ -17,5 +17,6 @@ class ChartsConfigurator {
         router = ChartsRouter()
         interactor?.presenter = presenter
         presenter?.viewController = viewController
+        router?.viewController = viewController
     }
 }
