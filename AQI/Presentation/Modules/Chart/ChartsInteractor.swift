@@ -17,7 +17,9 @@ class ChartsInteractor: ChartsInteractorProtocol {
     var presenter: ChartsPresenterProtocol?
     
     func manageDataForChart(withData data: Aqi) {
-        
+        if let responseHandler = presenter {
+            responseHandler.manageDataForChart(withData: data)
+        }
     }
     
 }
