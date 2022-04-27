@@ -11,3 +11,5 @@ Router -  Responsible for navigation between one screen to another screen
 Communication Flow
 
 View --> Interactor --> Domain (BLL)  --> Presenter  --> ViewController(Update View data / routing)
+
+HomeConntroller --> Home Interactor --> HomeUseCaseProvider --> HomeUseCase (call n/w class and get responnse back ) --> HomePresenter --> HomeController ---> HomeRouter --> Charts
