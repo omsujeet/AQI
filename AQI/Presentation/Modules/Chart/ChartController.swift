@@ -8,23 +8,40 @@
 import UIKit
 import Charts
 
+protocol ChartControllerProtocol: AnyObject {
+    func getChartData(forChart data: LineChartDataSet)
+}
+
 class ChartController: UIViewController {
     @IBOutlet var chartView: LineChartView!
     
     @IBOutlet weak var lblCityName: UILabel!
     var aqiData: Aqi?
+    var interactor: ChartsInteractorProtocol?
+    var router: ChartsRouterProtocol?
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        chartView.chartDescription?.enabled = false
-        chartView.dragEnabled = true
-        chartView.setScaleEnabled(true)
-        chartView.pinchZoomEnabled = true
+        setUp()
+        setUpChart()
         if let data = aqiData {
             lblCityName.text = data.cityName
             self.setDataCount(data.time.count, range: 700)
         }
+    }
+    
+    private func setUp() {
+        let configurator = ChartsConfigurator()
+        configurator.build(viewController: self)
+        interactor = configurator.interactor
+        router = configurator.router
+    }
+    
+    private func setUpChart() {
+        chartView.chartDescription?.enabled = false
+        chartView.dragEnabled = true
+        chartView.setScaleEnabled(true)
+        chartView.pinchZoomEnabled = true
     }
     
     
@@ -77,14 +94,4 @@ class ChartController: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

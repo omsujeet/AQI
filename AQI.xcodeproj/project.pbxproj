@@ -10,6 +10,10 @@
 		1E48BD278A40918190B09971 /* Pods_AQI_AQIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E1BA32082C610644E5FC14 /* Pods_AQI_AQIUITests.framework */; };
 		2DD1A019E797A7C4144A1A24 /* Pods_AQITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B892EE8A15BB04E4EC220F14 /* Pods_AQITests.framework */; };
 		BDBC3B3AA1DB0110826E54B7 /* Pods_AQI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9272D6A6CC0E5992D2A03F7F /* Pods_AQI.framework */; };
+		D074C2092818FADA00EA57E5 /* ChartsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074C2082818FADA00EA57E5 /* ChartsInteractor.swift */; };
+		D074C20B2818FAEB00EA57E5 /* ChartsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074C20A2818FAEB00EA57E5 /* ChartsPresenter.swift */; };
+		D074C20D2818FAFA00EA57E5 /* ChartsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074C20C2818FAFA00EA57E5 /* ChartsRouter.swift */; };
+		D074C20F2818FB1300EA57E5 /* ChartsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074C20E2818FB1300EA57E5 /* ChartsConfigurator.swift */; };
 		D0DFB0852816E3DD00C99099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0842816E3DD00C99099 /* AppDelegate.swift */; };
 		D0DFB0872816E3DD00C99099 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFB0862816E3DD00C99099 /* SceneDelegate.swift */; };
 		D0DFB08C2816E3DD00C99099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DFB08A2816E3DD00C99099 /* Main.storyboard */; };
@@ -66,6 +70,10 @@
 		639A080A5F38EFCAF43DBE7B /* Pods-AQI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AQI.debug.xcconfig"; path = "Target Support Files/Pods-AQI/Pods-AQI.debug.xcconfig"; sourceTree = "<group>"; };
 		9272D6A6CC0E5992D2A03F7F /* Pods_AQI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AQI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B892EE8A15BB04E4EC220F14 /* Pods_AQITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AQITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D074C2082818FADA00EA57E5 /* ChartsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsInteractor.swift; sourceTree = "<group>"; };
+		D074C20A2818FAEB00EA57E5 /* ChartsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsPresenter.swift; sourceTree = "<group>"; };
+		D074C20C2818FAFA00EA57E5 /* ChartsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsRouter.swift; sourceTree = "<group>"; };
+		D074C20E2818FB1300EA57E5 /* ChartsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsConfigurator.swift; sourceTree = "<group>"; };
 		D0DFB0812816E3DD00C99099 /* AQI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AQI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DFB0842816E3DD00C99099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0DFB0862816E3DD00C99099 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -322,6 +330,10 @@
 			isa = PBXGroup;
 			children = (
 				D0DFB0FA2818551D00C99099 /* ChartController.swift */,
+				D074C2082818FADA00EA57E5 /* ChartsInteractor.swift */,
+				D074C20A2818FAEB00EA57E5 /* ChartsPresenter.swift */,
+				D074C20C2818FAFA00EA57E5 /* ChartsRouter.swift */,
+				D074C20E2818FB1300EA57E5 /* ChartsConfigurator.swift */,
 			);
 			path = Chart;
 			sourceTree = "<group>";
@@ -570,17 +582,20 @@
 				D0DFB0BA2816E5B800C99099 /* AqiModel.swift in Sources */,
 				D0DFB0E62817CEAC00C99099 /* APIResponse.swift in Sources */,
 				D0DFB0FB2818551D00C99099 /* ChartController.swift in Sources */,
+				D074C20B2818FAEB00EA57E5 /* ChartsPresenter.swift in Sources */,
 				D0DFB0D52817C99100C99099 /* BaseTableView.swift in Sources */,
 				D0DFB0DC2817CE6800C99099 /* IResponseHandler.swift in Sources */,
 				D0DFB0C92816E6B500C99099 /* HomeInteractor.swift in Sources */,
 				D0DFB0D92817CA2700C99099 /* AqiTableView.swift in Sources */,
 				D0DFB0852816E3DD00C99099 /* AppDelegate.swift in Sources */,
+				D074C20F2818FB1300EA57E5 /* ChartsConfigurator.swift in Sources */,
 				D0DFB0F42818046800C99099 /* AqiCellModel.swift in Sources */,
 				D0DFB0CF2816E70400C99099 /* HomeConfigurator.swift in Sources */,
 				D0DFB0C02816E61400C99099 /* IHomeScreenUseCaseProvider.swift in Sources */,
 				D0DFB0E32817CEAC00C99099 /* APIErrorManager.swift in Sources */,
 				D0DFB0C72816E69400C99099 /* HomeController.swift in Sources */,
 				D0DFB0E42817CEAC00C99099 /* APIError.swift in Sources */,
+				D074C2092818FADA00EA57E5 /* ChartsInteractor.swift in Sources */,
 				D0DFB0C22816E62200C99099 /* HomeScreenUseCase.swift in Sources */,
 				D0DFB0872816E3DD00C99099 /* SceneDelegate.swift in Sources */,
 				D0DFB0EC2817D49C00C99099 /* NetworkCaller.swift in Sources */,
@@ -589,6 +604,7 @@
 				D0DFB0D1281729E000C99099 /* AqiTableCell.swift in Sources */,
 				D0DFB0D72817C9E000C99099 /* CellRepresentable.swift in Sources */,
 				D0DFB0CB2816E6C700C99099 /* HomePresenter.swift in Sources */,
+				D074C20D2818FAFA00EA57E5 /* ChartsRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
